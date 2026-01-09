@@ -1,0 +1,5 @@
+apiVersion: v2
+name: micro-todo-ui
+description: A Helm chart for Micro Todo UI application
+type: application
+version: 0.1.0  

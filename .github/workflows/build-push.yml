@@ -13,7 +13,7 @@ jobs:
 
     env:
       IMAGE_NAME: todo-ui
-      IMAGE_TAG: v4
+      IMAGE_TAG: v${{ github.run_number }}
       ACR_NAME: rupeshcr
       ACR_LOGIN_SERVER: rupeshcr.azurecr.io
 
